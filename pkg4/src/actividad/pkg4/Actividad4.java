@@ -22,11 +22,13 @@ public class Actividad4 {
                     directorio.list();
                     break;
                 case 2:
-                    System.out.print("\nIngresa el teléfono: ");
+                    String name = "";
+                    System.out.println("Ingresa el teléfono: ");
                     String phone = leer.next();
-                    System.out.print("Ingresa el nombre: ");
-                    String name = leer.next();
+                    System.out.println("Ingresa el nombre: ");
+                    name += leer.next();
                     directorio.create(phone, name);
+                    directorio.save();
                     break;
                 case 3:
                     System.out.print("\nIngresa el teléfono: ");
