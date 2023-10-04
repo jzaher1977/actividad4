@@ -9,6 +9,8 @@ import java.io.OutputStreamWriter;
 import java.util.HashMap;
 import java.util.Map;
 
+// Programa Creado:por Juan Antonio Flores Zaher Morales
+
 public class Dir {
 
     HashMap<String, String> addressBook = new HashMap<>();
